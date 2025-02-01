@@ -16,11 +16,9 @@ export default function Header() {
     <div className="fixed  w-full  top-0 flex justify-center left-0 z-50 ">
       <div className="lg:h-[10.5vh] h-[10vh] w-full flex justify-between items-center px-5 lg:px-7.5 xl:px-10 max-lg:py-4">
         <div className="flex items-center gap-1 md:gap-2 w-[20rem]">
-          <div>
-            <Image className="w-[4rem] md:w-[5rem]" src={Logo} width={50} height={50} alt="img" />
-          </div>
+        
           <div className="flex flex-col">
-            <h3 className="text-n-1">CESA-CSI VPPCOE-VA</h3>
+            <h3 className="text-n-1">Frud AI</h3>
             <p className="text-n-1 text-xs">Initiated by Computer Department</p>
           </div>
         </div>

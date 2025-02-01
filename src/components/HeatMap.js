@@ -28,7 +28,7 @@ const ApexChart = () => {
     ],
     options: {
       chart: {
-        height: 350,
+        height: "60vh",
         width: '100%', // Make the chart take full width of the parent container
         type: 'heatmap',
       },
